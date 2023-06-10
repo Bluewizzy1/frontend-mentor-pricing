@@ -95,7 +95,11 @@
     background-color: white;
     transition: 0.3s;
   }
-
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
   .monthly {
     display: none;
   }
@@ -230,4 +234,3 @@
       font-size: 0.75rem;
     }
   }
-
